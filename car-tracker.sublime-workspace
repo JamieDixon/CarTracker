@@ -1,0 +1,579 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"section1",
+				"section1CurrentItem"
+			],
+			[
+				"high",
+				"highlightedLeve1Item"
+			],
+			[
+				"section1C",
+				"section1CurrentListItems"
+			],
+			[
+				"childCa",
+				"childcareHoursPerWeek"
+			],
+			[
+				"childc",
+				"childcare"
+			],
+			[
+				"chil",
+				"childcare"
+			],
+			[
+				"choreH",
+				"choreHoursPerWeek"
+			],
+			[
+				"calcula",
+				"calculateEnjoyment"
+			],
+			[
+				"person",
+				"personBType"
+			],
+			[
+				"personalityT",
+				"personalityTypeB"
+			],
+			[
+				"personality",
+				"personalityTypeB"
+			],
+			[
+				"paidW",
+				"paidWorkHours"
+			],
+			[
+				"paidw",
+				"paidWorkHours"
+			],
+			[
+				"hours",
+				"hoursSpent"
+			],
+			[
+				"part",
+				"partnerScore"
+			],
+			[
+				"partn",
+				"partnerAnswers"
+			],
+			[
+				"partner",
+				"partnerName"
+			],
+			[
+				"isWithi",
+				"isWithinLeftBound"
+			],
+			[
+				"hand",
+				"handlePos"
+			],
+			[
+				"left",
+				"leftVal"
+			],
+			[
+				"is",
+				"isWithinRightBound"
+			],
+			[
+				"container",
+				"containerPos"
+			],
+			[
+				"PCh",
+				"PChildcare"
+			],
+			[
+				"par",
+				"partnerName"
+			],
+			[
+				"parse",
+				"parsedConfig"
+			],
+			[
+				"QuizPa",
+				"QuizPAr3"
+			],
+			[
+				"curr",
+				"currentPageIndex"
+			],
+			[
+				"layout",
+				"layoutHtml"
+			],
+			[
+				"qui",
+				"quizView1"
+			],
+			[
+				"star",
+				"startTop"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "src/index.html",
+			"settings":
+			{
+				"buffer_size": 202,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/scripts/modules/index.js",
+			"settings":
+			{
+				"buffer_size": 54,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/scripts/main.js",
+			"settings":
+			{
+				"buffer_size": 111,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "Gruntfile.js",
+			"settings":
+			{
+				"buffer_size": 235,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 196.0,
+		"selected_items":
+		[
+			[
+				"htm",
+				"Set Syntax: HTML"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"javas",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"scss",
+				"Set Syntax: SCSS"
+			],
+			[
+				"javasc",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"javs",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"css3",
+				"Set Syntax: CSS3"
+			],
+			[
+				"syntax css",
+				"Set Syntax: CSS3"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Repos/BBC/Kite prototype ideas/wheel-nav.html",
+		"/C/Users/Jamie Dixon/Desktop/keyboardcontrol.html",
+		"/C/Repos/BBC/whquiz/trunk/src/js/main.js",
+		"/C/Repos/BBC/whquiz/trunk/src/lib/es5-shim.js",
+		"/C/Repos/BBC/whquiz/trunk/src/index.html",
+		"/C/Repos/BBC/whquiz/trunk/Gruntfile.js",
+		"/C/Repos/BBC/whquiz/trunk/src/js/views/results.js",
+		"/C/Repos/BBC/whquiz/trunk/src/scss/base.scss",
+		"/C/Users/Jamie Dixon/Desktop/gamepad.html",
+		"/C/Repos/BBC/whquiz/trunk/src/js/templates/results.html",
+		"/C/Repos/BBC/biscuit/script/components/onetwocarouselcontentcomponent.js",
+		"/C/Repos/BBC/biscuit/script/keyhandlers/standardcontainerkeyhandler.js",
+		"/C/Repos/BBC/biscuit/build/biscuit.sh",
+		"/C/Repos/BBC/biscuit/build/biscuit-full.rb",
+		"/C/Repos/BBC/biscuit/manifest.json",
+		"/C/Repos/BBC/biscuit/conf/biscuit.conf",
+		"/C/Repos/BBC/biscuit/Gruntfile.js",
+		"/C/Repos/BBC/biscuit/script/builders/contentitembuttonfactory.js",
+		"/C/Repos/BBC/biscuit/build/jsdoc/template/tmpl/layout.tmpl",
+		"/C/Repos/BBC/biscuit/style/1080/base/scrollableComponent.css",
+		"/C/Repos/BBC/oneservice/build/build.sh",
+		"/C/Repos/BBC/oneservice/build/biscuit.sh",
+		"/C/Repos/BBC/oneservice/build/manifest.sh",
+		"/C/Repos/BBC/oneservice/VERSIONS.MF",
+		"/C/Repos/BBC/oneservice/build/check-image-sizes.sh",
+		"/C/Repos/BBC/oneservice/Gruntfile.js",
+		"/C/Repos/BBC/oneservice/build/build.js",
+		"/C/Repos/BBC/oneservice/BISCUIT.MF",
+		"/C/Repos/BBC/TAL/node/antieframework.js",
+		"/C/Users/Jamie Dixon/Downloads/jtk374en/jtk374en/BBC.cfg",
+		"/C/Repos/BBC/whquiz/trunk/src/js/templates/layout.html",
+		"/C/Repos/BBC/whquiz/trunk/src/js/views/base.js",
+		"/C/Repos/BBC/whquiz/trunk/src/js/resources/questions.json",
+		"/C/Repos/BBC/whquiz/trunk/src/js/templates/question-type1.html",
+		"/C/Repos/BBC/whquiz/trunk/src/js/templates/question-type1-partner.html",
+		"/C/Repos/BBC/whquiz/trunk/src/js/views/splash.js",
+		"/C/Repos/BBC/whquiz/trunk/src/js/templates/quiz-part11.html",
+		"/C/Users/Jamie Dixon/Desktop/WHQuiz/proto credentials.txt",
+		"/C/Repos/BBC/whquiz/trunk/src/js/templates/quiz-part2.html",
+		"/C/Repos/BBC/whquiz/trunk/src/js/views/about-you.js",
+		"/C/Repos/BBC/whquiz/trunk/src/js/views/view-manager.js",
+		"/C/Repos/BBC/whquiz/trunk/src/js/views/more-about-you.js",
+		"/C/Repos/BBC/whquiz/trunk/src/js/models/quiz-results.js",
+		"/C/Repos/BBC/whquiz/trunk/acceptance-tests/README.md",
+		"/C/Repos/BBC/whquiz/trunk/acceptance-tests/features/demo.feature",
+		"/C/Repos/BBC/whquiz/trunk/acceptance-tests/features/common_steps.rb",
+		"/C/Repos/BBC/whquiz/trunk/src/js/views/washing.js",
+		"/C/Repos/BBC/whquiz/trunk/src/js/views/house-admin.js",
+		"/C/Repos/BBC/whquiz/trunk/src/js/views/groceries.js",
+		"/C/Repos/BBC/whquiz/trunk/src/js/views/diy.js",
+		"/C/Repos/BBC/whquiz/trunk/src/js/views/cooking.js",
+		"/C/Repos/BBC/whquiz/trunk/src/js/views/cleaning.js",
+		"/C/Repos/BBC/whquiz/trunk/src/js/Templates/layout.html",
+		"/C/Repos/BBC/whquiz/trunk/src/js/views/partner/cooking.js",
+		"/C/Repos/BBC/whquiz/trunk/src/js/Views/results.js",
+		"/C/Repos/BBC/whquiz/trunk/test/resultsSpec.js",
+		"/C/Repos/BBC/whquiz/trunk/src/js/templates/splash.html",
+		"/C/Repos/BBC/whquiz/trunk/src/js/views/partner/cleaning.js",
+		"/C/Repos/BBC/whquiz/trunk/src/js/views/partner/diy.js",
+		"/C/Repos/BBC/whquiz/trunk/src/js/views/partner/groceries.js",
+		"/C/Repos/BBC/whquiz/trunk/src/js/views/partner/house-admin.js",
+		"/C/Repos/BBC/whquiz/trunk/src/js/views/partner/washing.js",
+		"/C/Repos/BBC/whquiz/trunk/src/js/views/chores.js",
+		"/C/Repos/BBC/whquiz/trunk/src/js/views/partner/base.js",
+		"/C/Repos/BBC/whquiz/trunk/package.json",
+		"/C/Repos/BBC/whquiz/trunk/test/test-main.js",
+		"/C/Repos/BBC/whquiz/trunk/test/lib/jasmine-jquery.js",
+		"/C/Repos/BBC/whquiz/trunk/karma.conf.js",
+		"/C/Repos/BBC/whquiz/trunk/test/views/resultsSpec.js",
+		"/C/Repos/BBC/whquiz/trunk/src/js/Views/view-manager.js",
+		"/C/Repos/BBC/whquiz/trunk/test/quizresultsSpec.js",
+		"/C/Repos/BBC/whquiz/trunk/src/js/Views/splash.js",
+		"/C/Repos/BBC/whquiz/trunk/src/slider-proto.html",
+		"/C/Repos/BBC/whquiz/trunk/src/js/views/quizpart12.js",
+		"/C/Repos/BBC/whquiz/trunk/src/js/Views/partner/childcare.js",
+		"/C/Repos/BBC/whquiz/trunk/src/js/Views/partner/cleaning.js",
+		"/C/Repos/BBC/whquiz/trunk/src/js/Views/partner/cooking.js",
+		"/C/Repos/BBC/whquiz/trunk/src/js/Views/partner/diy.js",
+		"/C/Repos/BBC/whquiz/trunk/src/js/Views/partner/groceries.js",
+		"/C/Repos/BBC/whquiz/trunk/src/js/Views/partner/houseadmin.js",
+		"/C/Repos/BBC/whquiz/trunk/src/js/Views/partner/washing.js",
+		"/C/Repos/BBC/whquiz/trunk/src/js/Views/aboutyou.js",
+		"/C/Repos/BBC/whquiz/trunk/src/js/Models/quizresults.js",
+		"/C/Repos/BBC/whquiz/trunk/src/js/Views/partner/aboutyou.js",
+		"/C/Repos/BBC/whquiz/trunk/src/js/Views/cooking.js",
+		"/C/Repos/BBC/whquiz/trunk/src/js/Templates/question-type1.html",
+		"/C/Repos/BBC/whquiz/trunk/src/js/Views/cleaning.js",
+		"/C/Repos/BBC/whquiz/trunk/src/js/Views/washing.js",
+		"/C/Repos/BBC/whquiz/trunk/src/js/Views/groceries.js",
+		"/C/Repos/BBC/whquiz/trunk/src/js/Views/childcare.js",
+		"/C/Repos/BBC/whquiz/trunk/src/js/Views/diy.js",
+		"/C/Repos/BBC/whquiz/trunk/src/js/Views/houseadmin.js",
+		"/C/Repos/BBC/whquiz/trunk/src/js/Templates/results.html",
+		"/C/Repos/BBC/whquiz/trunk/src/lib/prettyPrint.js",
+		"/C/Repos/BBC/whquiz/trunk/src/lib/prettyprint.js",
+		"/C/Repos/BBC/whquiz/trunk/src/js/Templates/quizPart2.html",
+		"/C/Repos/BBC/whquiz/trunk/src/js/utils/config.js",
+		"/C/Repos/BBC/whquiz/trunk/src/js/Views/chores.js",
+		"/C/Repos/BBC/whquiz/trunk/src/js/Models/jamie.js",
+		"/C/Repos/BBC/whquiz/trunk/test/jamieSpec.js",
+		"/C/Repos/BBC/whquiz/trunk/src/lib/pubsub.js",
+		"/C/Repos/BBC/whquiz/trunk/src/js/Templates/quizpart4.html",
+		"/C/Repos/BBC/whquiz/trunk/src/js/Views/quizPart3.js",
+		"/C/Repos/BBC/whquiz/trunk/src/js/Templates/question-type2.html",
+		"/C/Repos/BBC/whquiz/trunk/src/js/Templates/quizPart3.html",
+		"/C/Repos/BBC/whquiz/trunk/src/js/Views/quizpart4.js",
+		"/C/Repos/BBC/whquiz/trunk/src/js/Views/quizpart5.js",
+		"/C/Repos/BBC/whquiz/trunk/src/js/Views/quizpart6.js",
+		"/C/Repos/BBC/whquiz/trunk/src/js/Views/quizpart7.js",
+		"/C/Repos/BBC/whquiz/trunk/src/js/Views/quizpart8.js",
+		"/C/Repos/BBC/whquiz/trunk/src/js/Views/quizpart9.js",
+		"/C/Repos/BBC/whquiz/trunk/src/js/Views/quizpart10.js",
+		"/C/Repos/BBC/whquiz/trunk/src/js/Views/quizpart11.js",
+		"/C/Repos/BBC/whquiz/trunk/src/js/Views/quizpart12.js",
+		"/C/Repos/BBC/whquiz/trunk/src/js/Templates/quizpart2.html",
+		"/C/Repos/BBC/whquiz/trunk/src/js/Views/quizPart2.js",
+		"/C/Repos/BBC/whquiz/trunk/src/js/Templates/quizpart12.html",
+		"/C/Repos/BBC/whquiz/trunk/src/js/Templates/quizpart11.html",
+		"/C/Repos/BBC/whquiz/trunk/src/js/Templates/quizpart10.html",
+		"/C/Repos/BBC/whquiz/trunk/src/js/Templates/quizpart9.html",
+		"/C/Repos/BBC/whquiz/trunk/src/js/Templates/quizpart8.html",
+		"/C/Repos/BBC/whquiz/trunk/src/js/Templates/quizpart7.html",
+		"/C/Repos/BBC/whquiz/trunk/src/js/Templates/quizpart6.html",
+		"/C/Repos/BBC/whquiz/trunk/src/js/Templates/quizpart5.html",
+		"/C/Repos/BBC/whquiz/trunk/README.md",
+		"/C/Repos/BBC/whquiz/trunk/src/js/Views/quizpart2.js",
+		"/C/Repos/BBC/whquiz/trunk/src/js/Views/quizpart3.js",
+		"/C/Repos/BBC/whquiz/trunk/src/js/Templates/quizpart3.html"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"require",
+			"h2",
+			"console",
+			"animation",
+			"define",
+			"jasmine",
+			"}\n",
+			"        \n",
+			"\n",
+			"store-passwords",
+			"password",
+			";\n",
+			"doTheThing",
+			"        window.pubSub = window.pubSub || {};\n\n        (function IFEE(pubSub) {\n          'use strict';\n\n          var eventStore = {}, lastId = 0;\n\n          pubSub.subscribe = function sub(topic, func) {\n            if (!eventStore.hasOwnProperty(topic)) {\n                    eventStore[topic] = {}; // Was using an array but this seems better for unsub perf.\n                }\n\n                lastId += 1; // arrg @ possible race cond. Keeping incrimental ID gen for simplicity of gist.\n                eventStore[topic][lastId] = func;\n                return lastId;\n            };\n\n            pubSub.unsubscribe = function unsub(id) {\n                var events, topic;\n                for (topic in eventStore)\n                {\n                  if (eventStore.hasOwnProperty(topic))\n                  {\n                    events = eventStore[topic];\n                    delete events[id];\n                }\n            }\n        };\n\n        pubSub.publish = function pub(topic) {\n            var events, args, callback;\n            if (eventStore.hasOwnProperty(topic)) {\n              events = eventStore[topic];\n              args = Array.prototype.slice.call(arguments).splice(1, arguments.length);\n              for (callback in events)\n              {\n                if (events.hasOwnProperty(callback))\n                {\n                  events[callback].apply(this, args);\n              }\n          }\n        }\n        };\n\n        pubSub.viewEvents = function () {\n            return eventStore;\n        };\n\n        }(window.pubSub));",
+			"{\n",
+			"				(function IFEE (pubSub) {\n					pubSub.subscribe('index/loaded', function (time, from){\n						console.log(\"The loaded event was called at \", time, \" from \", from);\n					});\n\n					pubSub.subscribe('index/loaded', function (){\n						console.log(\"I'm alive!\");\n					});\n\n					pubSub.subscribe('index/afterLoaded', function (){\n						console.log(\"We made it through. Thanks heavens for that.\");\n					});\n\n					var pubId = pubSub.subscribe('index/loaded', function(){\n						console.log(\"My time here is somewhat limited\");\n					});\n\n					pubSub.unsubscribe(pubId);\n\n					function init(){\n						pubSub.publish('index/loaded', new Date().getTime(), \"index\");\n					}\n\n					init();\n					pubSub.publish('index/afterLoaded');\n\n\n					console.log(pubSub.viewEvents());\n\n				}(window.pubSub));",
+			"(){\n",
+			"top"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 3,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "src/index.html",
+					"settings":
+					{
+						"buffer_size": 202,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								162,
+								162
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/scripts/modules/index.js",
+					"settings":
+					{
+						"buffer_size": 54,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								54,
+								51
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/scripts/main.js",
+					"settings":
+					{
+						"buffer_size": 111,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								111,
+								111
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "Gruntfile.js",
+					"settings":
+					{
+						"buffer_size": 235,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								139,
+								139
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 360.0,
+	"status_bar_visible": true
+}
