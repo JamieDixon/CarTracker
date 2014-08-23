@@ -70,7 +70,10 @@ app.use(function(err, req, res, next) {
     });
 });
 
-app.listen(3000);
+var port = process.env.PORT || 8080;
+app.listen(port);
+
+console.log("The magic happens on port %d", port);
 
 var mongoose = require("mongoose");
 mongoose.connect("mongodb://webApp:letmein123@ds050077.mongolab.com:50077/CarTrackerMongoLab");
