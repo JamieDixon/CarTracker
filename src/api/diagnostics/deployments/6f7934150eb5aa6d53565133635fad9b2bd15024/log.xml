@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<entries>
+  <entry time="2014-08-23T18:10:58.8100812Z" id="ab76f7a0-eba0-45f8-8315-4108f40d4ab3" type="0">
+    <message>Updating submodules.</message>
+  </entry>
+  <entry time="2014-08-23T18:10:58.8569662Z" id="f516bbb6-ada2-49da-8de3-78b616e1c1fb" type="0">
+    <message>Preparing deployment for commit id '6f7934150e'.</message>
+  </entry>
+  <entry time="2014-08-23T18:10:59.4692813Z" id="e3f0875d-fa57-48a3-9e1d-bfeb18dc869c" type="0">
+    <message>Generating deployment script.</message>
+    <entry time="2014-08-23T18:10:59.5345839Z" id="4f80a021-bb53-4e3c-baa9-b51239152483" type="0">
+      <message>Using cached version of deployment script (command: 'azure -y --no-dot-deployment -r "D:\home\site\repository" -o "D:\home\site\deployments\tools" --node --sitePath "D:\home\site\repository"').</message>
+    </entry>
+  </entry>
+  <entry time="2014-08-23T18:10:59.5942752Z" id="e1ba0e88-f5c4-4bd4-b842-8d455679b6a5" type="1">
+    <message>Running deployment command...</message>
+    <entry time="2014-08-23T18:10:59.6099027Z" id="f29318da-f5b3-4e1a-afb0-a5a283098391" type="0">
+      <message>Command: "D:\home\site\deployments\tools\deploy.cmd"</message>
+    </entry>
+    <entry time="2014-08-23T18:11:00.0630505Z" id="3aeac1a3-d7fd-4301-bff3-6ddaacc87c77" type="0">
+      <message>Handling node.js deployment.</message>
+    </entry>
+    <entry time="2014-08-23T18:11:00.3130108Z" id="90f96389-0209-4200-aa71-3fdc4a80ff8d" type="0">
+      <message>KuduSync.NET from: 'D:\home\site\repository' to: 'D:\home\site\wwwroot'</message>
+    </entry>
+    <entry time="2014-08-23T18:11:00.3286269Z" id="b64a14e5-2729-447c-af98-b0c67572be04" type="0">
+      <message>Copying file: 'src\api\server.js'</message>
+    </entry>
+    <entry time="2014-08-23T18:11:00.469255Z" id="4d2ddfa5-982b-472e-960d-d727c58b0162" type="0">
+      <message>Looking for app.js/server.js under site root.</message>
+    </entry>
+    <entry time="2014-08-23T18:11:00.469255Z" id="9912f188-34d8-4818-b785-95c47f42279a" type="1">
+      <message>Missing server.js/app.js files, web.config is not generated</message>
+    </entry>
+    <entry time="2014-08-23T18:11:00.4848717Z" id="0f6ea706-7469-44b4-b62d-aa3b04740096" type="0">
+      <message>The package.json file does not specify node.js engine version constraints.</message>
+    </entry>
+    <entry time="2014-08-23T18:11:00.5161236Z" id="c0662911-09f7-4fc8-bec5-098a4c2363a1" type="0">
+      <message>The node.js application will run with the default node.js version 0.10.29.</message>
+    </entry>
+    <entry time="2014-08-23T18:11:01.4848474Z" id="c3b63b79-6c61-44bd-ac04-15900655ad11" type="1">
+      <message>npm WARN package.json CarTracker@0.0.0 No description</message>
+    </entry>
+    <entry time="2014-08-23T18:11:01.5160892Z" id="2a14e2f0-1b6a-4418-ab8b-82ace9c9ab6a" type="1">
+      <message>npm WARN package.json CarTracker@0.0.0 No repository field.</message>
+    </entry>
+    <entry time="2014-08-23T18:11:01.547338Z" id="91fcce1a-a2de-4327-8fa2-3d5542b0170b" type="1">
+      <message>npm WARN package.json CarTracker@0.0.0 No README data</message>
+    </entry>
+    <entry time="2014-08-23T18:11:03.5170482Z" id="64d06f04-81e8-4413-abf1-8e0310cb5abd" type="0">
+      <message>Finished successfully.</message>
+    </entry>
+  </entry>
+  <entry time="2014-08-23T18:11:03.5798071Z" id="37b0a62a-ce26-4d6a-90ea-ce7d8300ad79" type="0">
+    <message>Deployment successful.</message>
+  </entry>
+</entries>

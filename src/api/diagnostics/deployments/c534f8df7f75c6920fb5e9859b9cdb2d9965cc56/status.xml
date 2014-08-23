@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<deployment>
+  <id>c534f8df7f75c6920fb5e9859b9cdb2d9965cc56</id>
+  <author>Jamie Dixon</author>
+  <deployer>GitHub</deployer>
+  <authorEmail>jamie@jamie-dixon.co.uk</authorEmail>
+  <message>Adding prototype nodejs api</message>
+  <progress></progress>
+  <status>Success</status>
+  <statusText></statusText>
+  <lastSuccessEndTime>2014-08-23T17:49:15.593576Z</lastSuccessEndTime>
+  <receivedTime>2014-08-23T17:49:11.155232Z</receivedTime>
+  <startTime>2014-08-23T17:49:11.3280571Z</startTime>
+  <endTime>2014-08-23T17:49:15.593576Z</endTime>
+  <complete>True</complete>
+  <is_temp>False</is_temp>
+  <is_readonly>False</is_readonly>
+</deployment>

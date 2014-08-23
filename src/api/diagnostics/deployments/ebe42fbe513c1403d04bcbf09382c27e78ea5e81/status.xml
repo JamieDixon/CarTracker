@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<deployment>
+  <id>ebe42fbe513c1403d04bcbf09382c27e78ea5e81</id>
+  <author>Jamie Dixon</author>
+  <deployer>GitHub</deployer>
+  <authorEmail>jamie@jamie-dixon.co.uk</authorEmail>
+  <message>Renamed app.js to server.js</message>
+  <progress></progress>
+  <status>Success</status>
+  <statusText></statusText>
+  <lastSuccessEndTime>2014-08-23T17:59:37.7196794Z</lastSuccessEndTime>
+  <receivedTime>2014-08-23T17:59:33.2343149Z</receivedTime>
+  <startTime>2014-08-23T17:59:33.4062142Z</startTime>
+  <endTime>2014-08-23T17:59:37.7196794Z</endTime>
+  <complete>True</complete>
+  <is_temp>False</is_temp>
+  <is_readonly>False</is_readonly>
+</deployment>

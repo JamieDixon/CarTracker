@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<entries>
+  <entry time="2014-08-23T18:34:17.2909688Z" id="bb3c49f0-8885-4804-852f-4f8a53d98c88" type="0">
+    <message>Updating submodules.</message>
+  </entry>
+  <entry time="2014-08-23T18:34:17.3378864Z" id="b0a79cbb-46c2-467d-9d00-21408d76e97d" type="0">
+    <message>Preparing deployment for commit id '63f1b73d90'.</message>
+  </entry>
+  <entry time="2014-08-23T18:34:17.6514182Z" id="0ace8637-2dd6-4246-ae2f-52ca5e648d43" type="0">
+    <message>Generating deployment script.</message>
+    <entry time="2014-08-23T18:34:17.6982574Z" id="fe3f74ac-13e8-47e2-a416-ba05f541f98c" type="0">
+      <message>Using cached version of deployment script (command: 'azure -y --no-dot-deployment -r "D:\home\site\repository" -o "D:\home\site\deployments\tools" --node --sitePath "D:\home\site\repository\src\api"').</message>
+    </entry>
+  </entry>
+  <entry time="2014-08-23T18:34:17.7607574Z" id="7468f1f8-5b2a-4ba3-b871-de86b0a68b4f" type="1">
+    <message>Running deployment command...</message>
+    <entry time="2014-08-23T18:34:17.7763817Z" id="fc8f8e0e-2d0b-48d2-b2af-c88f0c71f80a" type="0">
+      <message>Command: "D:\home\site\deployments\tools\deploy.cmd"</message>
+    </entry>
+    <entry time="2014-08-23T18:34:18.1990309Z" id="c58a27c4-2e79-4b4a-8c40-31251a828527" type="0">
+      <message>Handling node.js deployment.</message>
+    </entry>
+    <entry time="2014-08-23T18:34:18.4021414Z" id="6bae6606-2775-4277-8be3-76247e62d84f" type="0">
+      <message>KuduSync.NET from: 'D:\home\site\repository\src\api' to: 'D:\home\site\wwwroot'</message>
+    </entry>
+    <entry time="2014-08-23T18:34:18.417776Z" id="2100740e-193d-4488-b57f-b99188430cae" type="0">
+      <message>Copying file: 'IISNode.yml'</message>
+    </entry>
+    <entry time="2014-08-23T18:34:18.5271371Z" id="0a3b0ead-f485-4202-bf95-f470f88ed087" type="0">
+      <message>Using start-up script bin/www from package.json.</message>
+    </entry>
+    <entry time="2014-08-23T18:34:18.5583907Z" id="e41dbc7e-f0e9-42c3-a9aa-c88b3c577acc" type="0">
+      <message>Generated web.config.</message>
+    </entry>
+    <entry time="2014-08-23T18:34:18.5583907Z" id="4555e26c-9922-45df-b167-c19c8f7b2357" type="0">
+      <message>The package.json file does not specify node.js engine version constraints.</message>
+    </entry>
+    <entry time="2014-08-23T18:34:18.5740186Z" id="6b29f94e-b2b4-49dc-8637-e1544595f2f1" type="0">
+      <message>The node.js application will run with the default node.js version 0.10.29.</message>
+    </entry>
+    <entry time="2014-08-23T18:34:19.5739863Z" id="3969511f-4fb0-49f8-962f-5f6df5119957" type="1">
+      <message>npm WARN prefer global grunt-cli@0.1.13 should be installed with -g</message>
+    </entry>
+    <entry time="2014-08-23T18:34:22.9505532Z" id="583d9009-cc88-4e46-a142-ba9a341b654b" type="0">
+      <message>Finished successfully.</message>
+    </entry>
+  </entry>
+  <entry time="2014-08-23T18:34:23.0305829Z" id="f8f9d9ba-0036-4d02-91f8-ea46b5b9bed4" type="0">
+    <message>Deployment successful.</message>
+  </entry>
+</entries>

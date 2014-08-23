@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<deployment>
+  <id>2cb6f2d502afcd426da72b8698065f2c88281b39</id>
+  <author>Jamie Dixon</author>
+  <deployer>GitHub</deployer>
+  <authorEmail>jamie@jamie-dixon.co.uk</authorEmail>
+  <message>Trying to fix node on azure</message>
+  <progress></progress>
+  <status>Success</status>
+  <statusText></statusText>
+  <lastSuccessEndTime>2014-08-23T18:30:41.3496192Z</lastSuccessEndTime>
+  <receivedTime>2014-08-23T18:30:35.2062653Z</receivedTime>
+  <startTime>2014-08-23T18:30:35.3624983Z</startTime>
+  <endTime>2014-08-23T18:30:41.3496192Z</endTime>
+  <complete>True</complete>
+  <is_temp>False</is_temp>
+  <is_readonly>False</is_readonly>
+</deployment>

@@ -1,0 +1,11 @@
+Sat Aug 23 2014 19:37:21 GMT+0100 (GMT Summer Time):
+{ [Error: Invalid publishSettings file. Use "azure account download" to download publishing credentials.]
+  stack: [Getter/Setter],
+  __frame: undefined,
+  rawStack: [Getter] }
+Error: Invalid publishSettings file. Use "azure account download" to download publishing credentials.
+    at subscriptionsFromContents (C:\Users\Jamie Dixon\AppData\Roaming\npm\node_modules\azure-cli\lib\util\profile\publishSettings.js:52:11)
+    at Object.importPublishSettings [as import] (C:\Users\Jamie Dixon\AppData\Roaming\npm\node_modules\azure-cli\lib\util\profile\publishSettings.js:92:10)
+    at Profile._.extend.importPublishSettings (C:\Users\Jamie Dixon\AppData\Roaming\npm\node_modules\azure-cli\lib\util\profile\profile.js:193:34)
+    at __5 (C:\Users\Jamie Dixon\AppData\Roaming\npm\node_modules\azure-cli\lib\commands\account._js:114:23)
+
