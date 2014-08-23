@@ -23,9 +23,10 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.get('/', function (req, res) {
-    Journey.find(function (err, journeys) {
+    /*Journey.find(function (err, journeys) {
         res.json(journeys);
-    });
+    });*/
+res.json({ message: "We got this far"});
 });
 
 app.post('/', function (req, res) {
