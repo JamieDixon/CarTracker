@@ -131,7 +131,7 @@
 			"file": "src/index.html",
 			"settings":
 			{
-				"buffer_size": 202,
+				"buffer_size": 371,
 				"line_ending": "Windows"
 			}
 		},
@@ -139,7 +139,15 @@
 			"file": "src/scripts/modules/index.js",
 			"settings":
 			{
-				"buffer_size": 54,
+				"buffer_size": 437,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": ".gitignore",
+			"settings":
+			{
+				"buffer_size": 12,
 				"line_ending": "Windows"
 			}
 		},
@@ -147,7 +155,7 @@
 			"file": "src/scripts/main.js",
 			"settings":
 			{
-				"buffer_size": 111,
+				"buffer_size": 372,
 				"line_ending": "Windows"
 			}
 		},
@@ -155,7 +163,15 @@
 			"file": "Gruntfile.js",
 			"settings":
 			{
-				"buffer_size": 235,
+				"buffer_size": 746,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/sass/index.scss",
+			"settings":
+			{
+				"buffer_size": 57,
 				"line_ending": "Windows"
 			}
 		}
@@ -163,9 +179,13 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 196.0,
+		"height": 265.0,
 		"selected_items":
 		[
+			[
+				"scss",
+				"Set Syntax: SCSS"
+			],
 			[
 				"htm",
 				"Set Syntax: HTML"
@@ -185,10 +205,6 @@
 			[
 				"instal",
 				"Package Control: Install Package"
-			],
-			[
-				"scss",
-				"Set Syntax: SCSS"
 			],
 			[
 				"javasc",
@@ -228,6 +244,12 @@
 	},
 	"file_history":
 	[
+		"/C/Repos/Jamie/CarTracker/tests/indexSpec.js",
+		"/C/Repos/Jamie/CarTracker/karma.conf.js",
+		"/C/Repos/Jamie/CarTracker/tests/test-main.js",
+		"/C/Repos/Jamie/CarTracker/src/sass/index.scss",
+		"/C/Repos/BBC/whquiz/trunk/test/test-main.js",
+		"/C/Repos/Jamie/CarTracker/tests/karma.conf.js",
 		"/C/Repos/BBC/Kite prototype ideas/wheel-nav.html",
 		"/C/Users/Jamie Dixon/Desktop/keyboardcontrol.html",
 		"/C/Repos/BBC/whquiz/trunk/src/js/main.js",
@@ -293,7 +315,6 @@
 		"/C/Repos/BBC/whquiz/trunk/src/js/views/chores.js",
 		"/C/Repos/BBC/whquiz/trunk/src/js/views/partner/base.js",
 		"/C/Repos/BBC/whquiz/trunk/package.json",
-		"/C/Repos/BBC/whquiz/trunk/test/test-main.js",
 		"/C/Repos/BBC/whquiz/trunk/test/lib/jasmine-jquery.js",
 		"/C/Repos/BBC/whquiz/trunk/karma.conf.js",
 		"/C/Repos/BBC/whquiz/trunk/test/views/resultsSpec.js",
@@ -350,12 +371,7 @@
 		"/C/Repos/BBC/whquiz/trunk/src/js/Templates/quizpart9.html",
 		"/C/Repos/BBC/whquiz/trunk/src/js/Templates/quizpart8.html",
 		"/C/Repos/BBC/whquiz/trunk/src/js/Templates/quizpart7.html",
-		"/C/Repos/BBC/whquiz/trunk/src/js/Templates/quizpart6.html",
-		"/C/Repos/BBC/whquiz/trunk/src/js/Templates/quizpart5.html",
-		"/C/Repos/BBC/whquiz/trunk/README.md",
-		"/C/Repos/BBC/whquiz/trunk/src/js/Views/quizpart2.js",
-		"/C/Repos/BBC/whquiz/trunk/src/js/Views/quizpart3.js",
-		"/C/Repos/BBC/whquiz/trunk/src/js/Templates/quizpart3.html"
+		"/C/Repos/BBC/whquiz/trunk/src/js/Templates/quizpart6.html"
 	],
 	"find":
 	{
@@ -408,7 +424,7 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -416,15 +432,15 @@
 					"file": "src/index.html",
 					"settings":
 					{
-						"buffer_size": 202,
+						"buffer_size": 371,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								162,
-								162
+								231,
+								231
 							]
 						],
 						"settings":
@@ -442,20 +458,21 @@
 					"file": "src/scripts/modules/index.js",
 					"settings":
 					{
-						"buffer_size": 54,
+						"buffer_size": 437,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								54,
-								51
+								286,
+								286
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -465,23 +482,23 @@
 				},
 				{
 					"buffer": 2,
-					"file": "src/scripts/main.js",
+					"file": ".gitignore",
 					"settings":
 					{
-						"buffer_size": 111,
+						"buffer_size": 12,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								111,
-								111
+								12,
+								12
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -491,23 +508,77 @@
 				},
 				{
 					"buffer": 3,
-					"file": "Gruntfile.js",
+					"file": "src/scripts/main.js",
 					"settings":
 					{
-						"buffer_size": 235,
+						"buffer_size": 372,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								139,
-								139
+								372,
+								372
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "Gruntfile.js",
+					"settings":
+					{
+						"buffer_size": 746,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								287,
+								287
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "src/sass/index.scss",
+					"settings":
+					{
+						"buffer_size": 57,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								57,
+								57
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SCSS/SCSS.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
