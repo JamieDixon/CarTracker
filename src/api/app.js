@@ -23,10 +23,9 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.get('/', function (req, res) {
-    /*Journey.find(function (err, journeys) {
+    Journey.find(function (err, journeys) {
         res.json(journeys);
-    });*/
-res.json({ message: "We got this far"});
+    });
 });
 
 app.post('/', function (req, res) {
@@ -38,7 +37,7 @@ app.post('/', function (req, res) {
         }
     });
 
-    console.log(journey);
+    res.json(journey);
 });
 
 
@@ -73,8 +72,6 @@ app.use(function(err, req, res, next) {
 
 var port = parseInt(process.env.PORT) || 8080;
 app.listen(port);
-
-console.log(process.env.PORT);
 
 console.log("The magic happens on port %d", port);
 
