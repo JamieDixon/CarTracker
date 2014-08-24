@@ -71,8 +71,10 @@ app.use(function(err, req, res, next) {
     });
 });
 
-var port = process.env.PORT || 8080;
+var port = parseInt(process.env.PORT) || 8080;
 app.listen(port);
+
+console.log(process.env.PORT);
 
 console.log("The magic happens on port %d", port);
 

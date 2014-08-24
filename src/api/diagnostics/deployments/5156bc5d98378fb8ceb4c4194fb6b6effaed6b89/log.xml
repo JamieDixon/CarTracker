@@ -1,0 +1,402 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<entries>
+  <entry time="2014-08-23T18:55:49.1198362Z" id="5ab5b023-12e9-4465-be65-2701735f0cae" type="0">
+    <message>Updating submodules.</message>
+  </entry>
+  <entry time="2014-08-23T18:55:49.1667382Z" id="a233f00c-6af9-41f5-9e91-67e06d0b5742" type="0">
+    <message>Preparing deployment for commit id '5156bc5d98'.</message>
+  </entry>
+  <entry time="2014-08-23T18:55:49.4635617Z" id="51414654-d08b-4d3b-8db8-280e59e1de1f" type="0">
+    <message>Generating deployment script.</message>
+    <entry time="2014-08-23T18:55:49.5104374Z" id="310c7828-45a6-4158-b68c-fdbf70518966" type="0">
+      <message>Using cached version of deployment script (command: 'azure -y --no-dot-deployment -r "D:\home\site\repository" -o "D:\home\site\deployments\tools" --node --sitePath "D:\home\site\repository\src\api"').</message>
+    </entry>
+  </entry>
+  <entry time="2014-08-23T18:55:49.5573154Z" id="3651fd9a-b59f-4457-987c-9ae0ea438ff9" type="1">
+    <message>Running deployment command...</message>
+    <entry time="2014-08-23T18:55:49.5729371Z" id="12d2b8f4-078b-49bb-8637-8b74eda49851" type="0">
+      <message>Command: "D:\home\site\deployments\tools\deploy.cmd"</message>
+    </entry>
+    <entry time="2014-08-23T18:55:50.0104113Z" id="68bf5748-c3bf-47b4-8626-68ba753069c3" type="0">
+      <message>Handling node.js deployment.</message>
+    </entry>
+    <entry time="2014-08-23T18:55:50.6979265Z" id="081ee2ea-4b7e-45fa-a9f7-b02aba8d4af1" type="0">
+      <message>KuduSync.NET from: 'D:\home\site\repository\src\api' to: 'D:\home\site\wwwroot'</message>
+    </entry>
+    <entry time="2014-08-23T18:55:50.7135053Z" id="2f89d051-b5b8-48c3-acf3-b464b8774537" type="0">
+      <message>Deleting file: 'server.js'</message>
+    </entry>
+    <entry time="2014-08-23T18:55:50.7291356Z" id="ab1fc486-fd90-413e-a794-51fa9fc22345" type="0">
+      <message>Copying file: 'app.js'</message>
+    </entry>
+    <entry time="2014-08-23T18:55:50.7447542Z" id="5688e9a6-e6ba-4c4c-a96e-c3614d4658c2" type="0">
+      <message>Copying file: 'node_modules\express\.npmignore'</message>
+    </entry>
+    <entry time="2014-08-23T18:55:50.7603785Z" id="ad3d3841-ddf5-48f5-b51d-42811f9adccd" type="0">
+      <message>Copying file: 'node_modules\express\History.md'</message>
+    </entry>
+    <entry time="2014-08-23T18:55:50.7603785Z" id="374f491f-bb6f-4773-980c-bed01dd26fd0" type="0">
+      <message>Copying file: 'node_modules\express\index.js'</message>
+    </entry>
+    <entry time="2014-08-23T18:55:50.7760023Z" id="697d11b2-2f40-4da3-836f-492f610e0f58" type="0">
+      <message>Copying file: 'node_modules\express\LICENSE'</message>
+    </entry>
+    <entry time="2014-08-23T18:55:50.791627Z" id="100bd918-b4ce-41bf-8fe2-f92e372959f6" type="0">
+      <message>Copying file: 'node_modules\express\package.json'</message>
+    </entry>
+    <entry time="2014-08-23T18:55:50.8072509Z" id="eebc21c9-c9df-4fbc-9f68-169e2de5594f" type="0">
+      <message>Copying file: 'node_modules\express\Readme.md'</message>
+    </entry>
+    <entry time="2014-08-23T18:55:50.8228825Z" id="85cee295-48a6-424a-96ac-1fcd31add66a" type="0">
+      <message>Copying file: 'node_modules\express\lib\application.js'</message>
+    </entry>
+    <entry time="2014-08-23T18:55:50.8541309Z" id="a089c121-5276-40d5-ba00-569c31c494f5" type="0">
+      <message>Copying file: 'node_modules\express\lib\express.js'</message>
+    </entry>
+    <entry time="2014-08-23T18:55:50.8697566Z" id="8d6908da-131c-4b71-a79b-4f8523d4a8e3" type="0">
+      <message>Copying file: 'node_modules\express\lib\request.js'</message>
+    </entry>
+    <entry time="2014-08-23T18:55:50.8853788Z" id="d7a14fa4-44ce-4d36-99eb-f5f0899394c8" type="0">
+      <message>Copying file: 'node_modules\express\lib\response.js'</message>
+    </entry>
+    <entry time="2014-08-23T18:55:50.9009983Z" id="7f0ef864-81d0-4d4b-8eb8-3eadea2a340f" type="0">
+      <message>Copying file: 'node_modules\express\lib\utils.js'</message>
+    </entry>
+    <entry time="2014-08-23T18:55:50.9166227Z" id="3640b1a0-db9b-48b0-bc04-570b1ebd9fb8" type="0">
+      <message>Copying file: 'node_modules\express\lib\view.js'</message>
+    </entry>
+    <entry time="2014-08-23T18:55:50.9322525Z" id="5030a9e8-a308-4327-92a8-d3459abe1126" type="0">
+      <message>Copying file: 'node_modules\express\lib\middleware\init.js'</message>
+    </entry>
+    <entry time="2014-08-23T18:55:50.947872Z" id="74cfdbbc-c79b-4457-ae5f-81ed7eb658b4" type="0">
+      <message>Copying file: 'node_modules\express\lib\middleware\query.js'</message>
+    </entry>
+    <entry time="2014-08-23T18:55:50.9634952Z" id="f892040a-456b-4407-aeaf-5184c5ecb5a6" type="0">
+      <message>Copying file: 'node_modules\express\lib\router\index.js'</message>
+    </entry>
+    <entry time="2014-08-23T18:55:50.9797736Z" id="4c451ff3-1f66-4cb0-b2b4-5f3758d6d230" type="0">
+      <message>Copying file: 'node_modules\express\lib\router\layer.js'</message>
+    </entry>
+    <entry time="2014-08-23T18:55:50.9947444Z" id="53237f4a-d11a-4e4a-bb2b-8d91057af834" type="0">
+      <message>Copying file: 'node_modules\express\lib\router\match.js'</message>
+    </entry>
+    <entry time="2014-08-23T18:55:51.0103771Z" id="6174a257-582d-42a0-8111-eb45ed688020" type="0">
+      <message>Copying file: 'node_modules\express\lib\router\route.js'</message>
+    </entry>
+    <entry time="2014-08-23T18:55:51.0259958Z" id="5f53c3aa-f7f5-42b7-abe4-6e911ca1383f" type="0">
+      <message>Copying file: 'node_modules\express\node_modules\accepts\.npmignore'</message>
+    </entry>
+    <entry time="2014-08-23T18:55:51.0416157Z" id="98df1d82-30df-44ae-8333-e65fdac92728" type="0">
+      <message>Copying file: 'node_modules\express\node_modules\accepts\History.md'</message>
+    </entry>
+    <entry time="2014-08-23T18:55:51.0572391Z" id="ef8e6cef-2fda-4b52-be8b-c73fd6377696" type="0">
+      <message>Copying file: 'node_modules\express\node_modules\accepts\index.js'</message>
+    </entry>
+    <entry time="2014-08-23T18:55:51.0728638Z" id="561dfe92-3f36-4f0c-8178-a4013224e9cc" type="0">
+      <message>Copying file: 'node_modules\express\node_modules\accepts\package.json'</message>
+    </entry>
+    <entry time="2014-08-23T18:55:51.1041123Z" id="1cb6a461-98e9-4cce-b082-556b6c34bae3" type="0">
+      <message>Copying file: 'node_modules\express\node_modules\accepts\README.md'</message>
+    </entry>
+    <entry time="2014-08-23T18:55:51.1197379Z" id="64bed1db-d7c9-47ba-a866-235e18556843" type="0">
+      <message>Copying file: 'node_modules\express\node_modules\accepts\node_modules\mime-types\.npmignore'</message>
+    </entry>
+    <entry time="2014-08-23T18:55:51.1353704Z" id="c90790e0-132d-4afc-b8e7-fdef18ffbda7" type="0">
+      <message>Copying file: 'node_modules\express\node_modules\accepts\node_modules\mime-types\.travis.yml'</message>
+    </entry>
+    <entry time="2014-08-23T18:55:51.1509864Z" id="85303c4e-9976-4371-adc2-bd306642b6a1" type="0">
+      <message>Copying file: 'node_modules\express\node_modules\accepts\node_modules\mime-types\component.json'</message>
+    </entry>
+    <entry time="2014-08-23T18:55:51.1666113Z" id="0622a657-45c1-4e44-a652-43a913e50860" type="0">
+      <message>Copying file: 'node_modules\express\node_modules\accepts\node_modules\mime-types\LICENSE'</message>
+    </entry>
+    <entry time="2014-08-23T18:55:51.182235Z" id="136e3033-1e07-4d0e-9cc2-e865c8c4fb43" type="0">
+      <message>Copying file: 'node_modules\express\node_modules\accepts\node_modules\mime-types\Makefile'</message>
+    </entry>
+    <entry time="2014-08-23T18:55:51.1978665Z" id="457e838f-576c-4ed9-b0a0-36154fec408a" type="0">
+      <message>Copying file: 'node_modules\express\node_modules\accepts\node_modules\mime-types\package.json'</message>
+    </entry>
+    <entry time="2014-08-23T18:55:51.2134841Z" id="a12cdd60-2a65-4989-b879-954707fa3e8c" type="0">
+      <message>Copying file: 'node_modules\express\node_modules\accepts\node_modules\mime-types\README.md'</message>
+    </entry>
+    <entry time="2014-08-23T18:55:51.2291079Z" id="b2a7be8f-f3ca-41e6-aa75-83348d8e016c" type="0">
+      <message>Copying file: 'node_modules\express\node_modules\accepts\node_modules\mime-types\SOURCES.md'</message>
+    </entry>
+    <entry time="2014-08-23T18:55:51.2447308Z" id="c5a9ddee-18cf-4d98-9b58-7c65addb0bc2" type="0">
+      <message>Copying file: 'node_modules\express\node_modules\accepts\node_modules\mime-types\lib\custom.json'</message>
+    </entry>
+    <entry time="2014-08-23T18:55:51.2603608Z" id="69b07dbd-1990-4fef-b0b2-5a6394e097ad" type="0">
+      <message>Copying file: 'node_modules\express\node_modules\accepts\node_modules\mime-types\lib\index.js'</message>
+    </entry>
+    <entry time="2014-08-23T18:55:51.2759869Z" id="c7eae6e3-8f53-436a-8e0c-84544f8715f4" type="0">
+      <message>Copying file: 'node_modules\express\node_modules\accepts\node_modules\mime-types\lib\mime.json'</message>
+    </entry>
+    <entry time="2014-08-23T18:55:51.2916078Z" id="7245d211-fa90-434a-89db-bbf0fad86f1b" type="0">
+      <message>Copying file: 'node_modules\express\node_modules\accepts\node_modules\mime-types\lib\node.json'</message>
+    </entry>
+    <entry time="2014-08-23T18:55:51.3072336Z" id="cb884d52-98da-4f25-89aa-44948cb6cde1" type="0">
+      <message>Copying file: 'node_modules\express\node_modules\accepts\node_modules\negotiator\.npmignore'</message>
+    </entry>
+    <entry time="2014-08-23T18:55:51.3228523Z" id="1bffaa3c-89c2-424c-a14f-73aa9339c943" type="0">
+      <message>Copying file: 'node_modules\express\node_modules\accepts\node_modules\negotiator\LICENSE'</message>
+    </entry>
+    <entry time="2014-08-23T18:55:51.3384779Z" id="4fbd7f82-6d58-4426-ad98-b67515a4e34c" type="0">
+      <message>Copying file: 'node_modules\express\node_modules\accepts\node_modules\negotiator\package.json'</message>
+    </entry>
+    <entry time="2014-08-23T18:55:51.3541189Z" id="969d1951-e593-4a83-b342-2ac146f61206" type="0">
+      <message>Copying file: 'node_modules\express\node_modules\accepts\node_modules\negotiator\readme.md'</message>
+    </entry>
+    <entry time="2014-08-23T18:55:51.3697251Z" id="78282869-99ac-46e7-afa7-64b708cf605b" type="0">
+      <message>Copying file: 'node_modules\express\node_modules\accepts\node_modules\negotiator\lib\charset.js'</message>
+    </entry>
+    <entry time="2014-08-23T18:55:51.385349Z" id="b47f4a28-154a-4de0-9eac-65a07aee9b25" type="0">
+      <message>Copying file: 'node_modules\express\node_modules\accepts\node_modules\negotiator\lib\encoding.js'</message>
+    </entry>
+    <entry time="2014-08-23T18:55:51.4009736Z" id="27f62cdd-1c2b-421d-b002-70311798ec4c" type="0">
+      <message>Copying file: 'node_modules\express\node_modules\accepts\node_modules\negotiator\lib\language.js'</message>
+    </entry>
+    <entry time="2014-08-23T18:55:51.4166065Z" id="afa7e225-d4b6-459e-8bc6-81830b602929" type="0">
+      <message>Copying file: 'node_modules\express\node_modules\accepts\node_modules\negotiator\lib\mediaType.js'</message>
+    </entry>
+    <entry time="2014-08-23T18:55:51.432224Z" id="1a5cdb91-926d-4aa2-8dda-a791ad704c77" type="0">
+      <message>Copying file: 'node_modules\express\node_modules\accepts\node_modules\negotiator\lib\negotiator.js'</message>
+    </entry>
+    <entry time="2014-08-23T18:55:51.4478466Z" id="bb66c1ac-feb7-41bd-92f0-9d177d8b0310" type="0">
+      <message>Copying file: 'node_modules\express\node_modules\buffer-crc32\.npmignore'</message>
+    </entry>
+    <entry time="2014-08-23T18:55:51.4634721Z" id="428f0f14-f5ee-4c4a-84b0-de11b1522d01" type="0">
+      <message>Copying file: 'node_modules\express\node_modules\buffer-crc32\.travis.yml'</message>
+    </entry>
+    <entry time="2014-08-23T18:55:51.4791048Z" id="9aece46b-30cf-4a83-861e-fd7ba95a1338" type="0">
+      <message>Copying file: 'node_modules\express\node_modules\buffer-crc32\index.js'</message>
+    </entry>
+    <entry time="2014-08-23T18:55:51.494721Z" id="3d45e977-2aa6-40fd-ab4b-f77208f16be4" type="0">
+      <message>Omitting next output lines...</message>
+    </entry>
+    <entry time="2014-08-23T18:55:56.4762427Z" id="30b1bd37-ca18-40ea-9507-5d6407acffcf" type="0">
+      <message>Using start-up script bin/www from package.json.</message>
+    </entry>
+    <entry time="2014-08-23T18:55:56.4918669Z" id="e4bf594a-b38b-46d2-a9ef-e3dc0e2c9a05" type="0">
+      <message>Generated web.config.</message>
+    </entry>
+    <entry time="2014-08-23T18:55:56.507493Z" id="d1545a62-7f1a-46f6-8da0-2b066bf6eeb8" type="0">
+      <message>The package.json file does not specify node.js engine version constraints.</message>
+    </entry>
+    <entry time="2014-08-23T18:55:56.5231109Z" id="914c32d5-5f71-475c-812b-92c683a39309" type="0">
+      <message>The node.js application will run with the default node.js version 0.10.29.</message>
+    </entry>
+    <entry time="2014-08-23T18:55:57.5699451Z" id="9f965c45-5ea6-416e-b8fe-127219b90b6c" type="1">
+      <message>npm http GET https://registry.npmjs.org/express</message>
+    </entry>
+    <entry time="2014-08-23T18:55:57.663684Z" id="1cbab0d0-87f9-4b90-b72a-28dd28f71eab" type="1">
+      <message>npm http 304 https://registry.npmjs.org/express</message>
+    </entry>
+    <entry time="2014-08-23T18:56:02.063734Z" id="6a05efe0-5cba-4310-be0c-004f90912f1e" type="1">
+      <message>npm http GET https://registry.npmjs.org/mkdirp</message>
+    </entry>
+    <entry time="2014-08-23T18:56:02.0949817Z" id="5c9e4f1c-918c-4d9a-b496-c55fb2d23029" type="1">
+      <message>npm http GET https://registry.npmjs.org/range-parser</message>
+    </entry>
+    <entry time="2014-08-23T18:56:02.1106051Z" id="4838dc20-dc6e-4909-a91d-a1ddf300805d" type="1">
+      <message>npm http GET https://registry.npmjs.org/fresh</message>
+    </entry>
+    <entry time="2014-08-23T18:56:02.1262386Z" id="503e561d-7df9-424f-b0f2-cbedcc251aa6" type="1">
+      <message>npm http GET https://registry.npmjs.org/cookie</message>
+    </entry>
+    <entry time="2014-08-23T18:56:02.1418559Z" id="9d9c5a6e-6114-464e-9e17-8df66ceb4bbd" type="1">
+      <message>npm http GET https://registry.npmjs.org/commander</message>
+    </entry>
+    <entry time="2014-08-23T18:56:02.1574799Z" id="9fd500d8-18d8-4a60-883c-b6fc086f45ee" type="1">
+      <message>npm http GET https://registry.npmjs.org/buffer-crc32</message>
+    </entry>
+    <entry time="2014-08-23T18:56:02.1731044Z" id="fc04f84d-9935-414f-bece-603293abda4b" type="1">
+      <message>npm http GET https://registry.npmjs.org/send</message>
+    </entry>
+    <entry time="2014-08-23T18:56:02.1887287Z" id="270f484b-18d8-47d3-b1b8-aba48c2c7247" type="1">
+      <message>npm http GET https://registry.npmjs.org/connect</message>
+    </entry>
+    <entry time="2014-08-23T18:56:02.2043539Z" id="7e1fda74-6127-4a00-9373-ee24f1cb2ff3" type="1">
+      <message>npm http GET https://registry.npmjs.org/cookie-signature</message>
+    </entry>
+    <entry time="2014-08-23T18:56:02.2199779Z" id="30367df7-33e4-49a2-8ba3-01302029d853" type="1">
+      <message>npm http GET https://registry.npmjs.org/merge-descriptors</message>
+    </entry>
+    <entry time="2014-08-23T18:56:02.2356026Z" id="01a3591e-6a3b-4c3c-8f19-984330f70095" type="1">
+      <message>npm http GET https://registry.npmjs.org/methods</message>
+    </entry>
+    <entry time="2014-08-23T18:56:02.2668549Z" id="c5cc0857-c0b3-44a4-9d6d-f2ab0d3b502b" type="1">
+      <message>npm http 304 https://registry.npmjs.org/mkdirp</message>
+    </entry>
+    <entry time="2014-08-23T18:56:02.2824746Z" id="7ef5a507-763d-4db8-bc93-f5a4118bd2a3" type="1">
+      <message>npm http 304 https://registry.npmjs.org/commander</message>
+    </entry>
+    <entry time="2014-08-23T18:56:02.2980988Z" id="97fb5a3c-b1b7-4699-b639-1c57b5570eca" type="1">
+      <message>npm http 304 https://registry.npmjs.org/fresh</message>
+    </entry>
+    <entry time="2014-08-23T18:56:02.3137221Z" id="f2333462-a5d2-4681-b9b1-08f88c3484df" type="1">
+      <message>npm http 304 https://registry.npmjs.org/cookie</message>
+    </entry>
+    <entry time="2014-08-23T18:56:02.3293479Z" id="e3292a87-ac3d-465b-9cc1-ff9db5896920" type="1">
+      <message>npm http 304 https://registry.npmjs.org/buffer-crc32</message>
+    </entry>
+    <entry time="2014-08-23T18:56:02.3605976Z" id="aea91380-0a4b-427f-a7fe-5fae496146e3" type="1">
+      <message>npm http 304 https://registry.npmjs.org/send</message>
+    </entry>
+    <entry time="2014-08-23T18:56:02.3762261Z" id="a5827c04-98b4-4a2b-bc6d-bef72478082c" type="1">
+      <message>npm http 304 https://registry.npmjs.org/range-parser</message>
+    </entry>
+    <entry time="2014-08-23T18:56:02.3918472Z" id="9d6fc983-b9c0-4352-bea0-dafdec72219f" type="1">
+      <message>npm http 304 https://registry.npmjs.org/connect</message>
+    </entry>
+    <entry time="2014-08-23T18:56:02.4074694Z" id="6768ed49-7fc6-4f83-a023-fb060cd9c44d" type="1">
+      <message>npm http 304 https://registry.npmjs.org/cookie-signature</message>
+    </entry>
+    <entry time="2014-08-23T18:56:02.4230929Z" id="df019954-6637-452f-9a9b-32b18ad7c523" type="1">
+      <message>npm http 304 https://registry.npmjs.org/merge-descriptors</message>
+    </entry>
+    <entry time="2014-08-23T18:56:02.4543421Z" id="8101ff66-deb4-41a8-8307-4ff3134c60c0" type="1">
+      <message>npm http 304 https://registry.npmjs.org/methods</message>
+    </entry>
+    <entry time="2014-08-23T18:56:02.704338Z" id="b5ad0708-7250-47cd-84eb-aec5e3b96e52" type="1">
+      <message>npm http GET https://registry.npmjs.org/keypress</message>
+    </entry>
+    <entry time="2014-08-23T18:56:02.7199554Z" id="248fd344-2496-4729-a828-fd7c3195eb6a" type="1">
+      <message>npm http GET https://registry.npmjs.org/mime</message>
+    </entry>
+    <entry time="2014-08-23T18:56:02.7824525Z" id="127fe908-e77d-44db-a21e-d71d623e1985" type="1">
+      <message>npm http 304 https://registry.npmjs.org/mime</message>
+    </entry>
+    <entry time="2014-08-23T18:56:03.1262303Z" id="8e835739-b2e5-4cc9-b5e9-c62d22daaacf" type="1">
+      <message>npm http 304 https://registry.npmjs.org/keypress</message>
+    </entry>
+    <entry time="2014-08-23T18:56:04.8634696Z" id="89901b13-c9ff-435f-adaa-bf679584f150" type="1">
+      <message>npm http GET https://registry.npmjs.org/pause</message>
+    </entry>
+    <entry time="2014-08-23T18:56:04.8947205Z" id="049c112d-67b8-467e-b71a-6729c28c607d" type="1">
+      <message>npm http GET https://registry.npmjs.org/bytes</message>
+    </entry>
+    <entry time="2014-08-23T18:56:04.910343Z" id="be0faec6-cc87-49b2-ae5d-46ae3de9163d" type="1">
+      <message>npm http GET https://registry.npmjs.org/qs</message>
+    </entry>
+    <entry time="2014-08-23T18:56:04.9259667Z" id="1287248f-3a3b-45ed-81df-98e09e931abd" type="1">
+      <message>npm http GET https://registry.npmjs.org/uid2</message>
+    </entry>
+    <entry time="2014-08-23T18:56:04.9415898Z" id="953d3f5d-0eac-4481-89cd-64487e19a0c8" type="1">
+      <message>npm http GET https://registry.npmjs.org/negotiator</message>
+    </entry>
+    <entry time="2014-08-23T18:56:04.9728391Z" id="fa410e25-8d50-4bcf-ac61-bbd5c5c45aea" type="1">
+      <message>npm http GET https://registry.npmjs.org/batch</message>
+    </entry>
+    <entry time="2014-08-23T18:56:04.988464Z" id="526796ba-8d6e-4c13-98b7-0f1226fbcfb6" type="1">
+      <message>npm http GET https://registry.npmjs.org/multiparty</message>
+    </entry>
+    <entry time="2014-08-23T18:56:05.0204692Z" id="357182e5-a147-460b-a551-de8af3b22cb3" type="1">
+      <message>npm http GET https://registry.npmjs.org/raw-body</message>
+    </entry>
+    <entry time="2014-08-23T18:56:05.066585Z" id="a0725da0-6445-48f7-ae92-07eeed60e059" type="1">
+      <message>npm http 304 https://registry.npmjs.org/pause</message>
+    </entry>
+    <entry time="2014-08-23T18:56:05.0978327Z" id="297e263d-679a-48de-876b-2f4e79f5d6d6" type="1">
+      <message>npm http 304 https://registry.npmjs.org/qs</message>
+    </entry>
+    <entry time="2014-08-23T18:56:05.113457Z" id="47164f5d-d453-4008-adba-8d5944f2a53f" type="1">
+      <message>npm http 304 https://registry.npmjs.org/uid2</message>
+    </entry>
+    <entry time="2014-08-23T18:56:05.1290886Z" id="c3a756fe-2a57-4a07-a9bb-77d379b32af9" type="1">
+      <message>npm http 304 https://registry.npmjs.org/bytes</message>
+    </entry>
+    <entry time="2014-08-23T18:56:05.1447115Z" id="ef26eaab-2c09-467a-8449-b647e3601e5c" type="1">
+      <message>npm http 304 https://registry.npmjs.org/negotiator</message>
+    </entry>
+    <entry time="2014-08-23T18:56:05.1603308Z" id="363bc1fd-11d3-416a-9866-8aef336a6389" type="1">
+      <message>npm http 304 https://registry.npmjs.org/batch</message>
+    </entry>
+    <entry time="2014-08-23T18:56:05.1759553Z" id="c949ee25-c413-41c6-9a2d-331a5e1dfc9b" type="1">
+      <message>npm http 304 https://registry.npmjs.org/multiparty</message>
+    </entry>
+    <entry time="2014-08-23T18:56:05.2072039Z" id="59af5ef2-6a27-4685-8eed-17e8c44e798d" type="1">
+      <message>npm http 304 https://registry.npmjs.org/raw-body</message>
+    </entry>
+    <entry time="2014-08-23T18:56:10.3503187Z" id="c22922a8-3686-40cb-8237-11ac588dd1f1" type="1">
+      <message>npm http GET https://registry.npmjs.org/readable-stream</message>
+    </entry>
+    <entry time="2014-08-23T18:56:10.3815241Z" id="17a551de-7ef4-45dd-b1db-f43c2f2568b8" type="1">
+      <message>npm http GET https://registry.npmjs.org/stream-counter</message>
+    </entry>
+    <entry time="2014-08-23T18:56:10.412816Z" id="8ba782fd-913c-467b-91c9-0943a4c07426" type="1">
+      <message>npm http 304 https://registry.npmjs.org/stream-counter</message>
+    </entry>
+    <entry time="2014-08-23T18:56:10.428396Z" id="869075b8-89bb-49a4-a0d9-576c2d87f5f3" type="1">
+      <message>npm http 304 https://registry.npmjs.org/readable-stream</message>
+    </entry>
+    <entry time="2014-08-23T18:56:10.8041625Z" id="79cab117-b61a-46fb-9425-115b337ecb7d" type="1">
+      <message>npm http GET https://registry.npmjs.org/isarray</message>
+    </entry>
+    <entry time="2014-08-23T18:56:10.834627Z" id="34ab5e2d-f268-4e1a-8742-1025ddaefb42" type="1">
+      <message>npm http GET https://registry.npmjs.org/string_decoder</message>
+    </entry>
+    <entry time="2014-08-23T18:56:10.8502515Z" id="b26e8a51-869f-4716-abe1-b546ef9097fe" type="1">
+      <message>npm http GET https://registry.npmjs.org/core-util-is</message>
+    </entry>
+    <entry time="2014-08-23T18:56:10.8658752Z" id="34f7a363-eacb-46fe-b2a8-b454358a2d6a" type="1">
+      <message>npm http GET https://registry.npmjs.org/inherits</message>
+    </entry>
+    <entry time="2014-08-23T18:56:10.8971681Z" id="ef12e1ca-3ddc-4289-93c4-d96949f4111d" type="1">
+      <message>npm http 304 https://registry.npmjs.org/isarray</message>
+    </entry>
+    <entry time="2014-08-23T18:56:10.9283749Z" id="76d7b00c-7514-4f17-9383-cc4c5d85ade7" type="1">
+      <message>npm http 304 https://registry.npmjs.org/string_decoder</message>
+    </entry>
+    <entry time="2014-08-23T18:56:10.9439976Z" id="7793336a-5ffc-48b7-a358-64732906bf44" type="1">
+      <message>npm http 304 https://registry.npmjs.org/core-util-is</message>
+    </entry>
+    <entry time="2014-08-23T18:56:10.9596229Z" id="bde28a07-d2d8-4441-827e-e32fb7451e58" type="1">
+      <message>npm http 304 https://registry.npmjs.org/inherits</message>
+    </entry>
+    <entry time="2014-08-23T18:56:11.2408587Z" id="d75065ab-0296-4839-b082-696f99f64e4b" type="1">
+      <message>npm WARN prefer global grunt-cli@0.1.13 should be installed with -g</message>
+    </entry>
+    <entry time="2014-08-23T18:56:14.7600358Z" id="7b1563e3-b959-4c77-986a-4ca1632c98e2" type="0">
+      <message>express@3.4.8 node_modules\express</message>
+    </entry>
+    <entry time="2014-08-23T18:56:14.7756658Z" id="3f76010b-0716-4ccd-bd3b-04b798f72d61" type="0">
+      <message>├── methods@0.1.0</message>
+    </entry>
+    <entry time="2014-08-23T18:56:14.8069221Z" id="405f0517-ddf9-40b1-80f5-59bb95c8b2f5" type="0">
+      <message>├── merge-descriptors@0.0.1</message>
+    </entry>
+    <entry time="2014-08-23T18:56:14.8225369Z" id="a8e12462-6dcb-4cc9-a0c7-d3ead43c0804" type="0">
+      <message>├── range-parser@0.0.4</message>
+    </entry>
+    <entry time="2014-08-23T18:56:14.8381567Z" id="9f63bb7d-692f-4fa6-841c-e249dbdff963" type="0">
+      <message>├── fresh@0.2.0</message>
+    </entry>
+    <entry time="2014-08-23T18:56:14.8537875Z" id="f404ffe3-cc38-4194-b487-54b68d443673" type="0">
+      <message>├── cookie-signature@1.0.1</message>
+    </entry>
+    <entry time="2014-08-23T18:56:14.869411Z" id="28b799e1-cd99-47ac-bbf2-0fe383baea13" type="0">
+      <message>├── buffer-crc32@0.2.1</message>
+    </entry>
+    <entry time="2014-08-23T18:56:14.8850374Z" id="63be1d4e-38b7-4e50-ad3d-cc15c176ac98" type="0">
+      <message>├── cookie@0.1.0</message>
+    </entry>
+    <entry time="2014-08-23T18:56:14.9006544Z" id="7460846e-9050-4601-8693-e62e5116d639" type="0">
+      <message>├── mkdirp@0.3.5</message>
+    </entry>
+    <entry time="2014-08-23T18:56:14.9319013Z" id="b3fb945a-1271-4c6b-b736-d5f5f60a2aaa" type="0">
+      <message>├── send@0.1.4 (mime@1.2.11)</message>
+    </entry>
+    <entry time="2014-08-23T18:56:14.9475712Z" id="acba4545-459b-4c76-9325-85a424198dc0" type="0">
+      <message>├── commander@1.3.2 (keypress@0.1.0)</message>
+    </entry>
+    <entry time="2014-08-23T18:56:14.9631534Z" id="8e1b3f3c-46f2-48c2-8934-fc38672b189d" type="0">
+      <message>└── connect@2.12.0 (uid2@0.0.3, pause@0.0.1, qs@0.6.6, bytes@0.2.1, raw-body@1.1.2, batch@0.5.0, negotiator@0.3.0, multiparty@2.2.0)</message>
+    </entry>
+    <entry time="2014-08-23T18:56:14.9788175Z" id="0490e24f-3308-477f-9324-77eb68540909" type="0">
+      <message>Finished successfully.</message>
+    </entry>
+  </entry>
+  <entry time="2014-08-23T18:56:15.0412738Z" id="f33ac59f-b09d-41be-b151-44e731c7aecf" type="0">
+    <message>Deployment successful.</message>
+  </entry>
+</entries>

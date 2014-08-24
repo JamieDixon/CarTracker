@@ -562,4 +562,164 @@
   </step>
   <step title="Process Shutdown" date="08/23 18:34:55" instance="27b450" pid="11284,3,13" uptime="00:00:42.0103737" lastrequesttime="00:00:19.4379683" elapsed="0" />
   <step title="Startup Request" date="08/23 18:40:08" instance="27b450" url="/dump" method="GET" type="request" pid="5624,2,7" ScmType="GitHub" elapsed="0" />
+  <step title="Incoming Request" date="08/23 18:40:08" instance="27b450" url="/dump" method="GET" type="request" pid="5624,2,7" Connection="Keep-Alive" Content-Length="0" Accept-Charset="UTF-8" Host="cartracker.scm.azurewebsites.net" User-Agent="WindowsAzureXplatCLI/0.8.7" X-SITE-DEPLOYMENT-ID="cartracker" elapsed="1000">
+    <step title="ZipStreamContent.OnZip" date="08/23 18:40:09" instance="27b450" elapsed="361" />
+    <step title="Outgoing response" date="08/23 18:40:09" instance="27b450" type="response" statusCode="200" statusText="OK" Server="Microsoft-IIS/8.0" Content-Disposition="attachment; filename=dump-08-23-18-40-09.zip" Cache-Control="no-cache" X-AspNet-Version="4.0.30319" Content-Type="application/zip" Pragma="no-cache" Expires="-1" elapsed="0" />
+  </step>
+  <step title="Incoming Request" date="08/23 18:48:41" instance="27b450" url="/api/deployments/?$orderby=ReceivedTime%20desc&amp;$top=20" method="GET" type="request" pid="5624,2,28" Connection="Keep-Alive" Accept="application/json" Accept-Language="en-US" Host="cartracker.scm.azurewebsites.net" User-Agent="Azure-Portal/4.9.00298.4" x-ms-client-request-id="f3630225-5b4b-4bf4-b813-927eaa15185d-2014-08-23 18:48:40Z" x-ms-client-session-id="45a32d9f-8520-4357-9a1c-bf9934ae2241" X-SITE-DEPLOYMENT-ID="cartracker" elapsed="655">
+    <step title="DeploymentService.GetDeployResults" date="08/23 18:48:41" instance="27b450" elapsed="271">
+      <step title="DeploymentManager.GetResults" date="08/23 18:48:41" instance="27b450" elapsed="244" />
+    </step>
+    <step title="Outgoing response" date="08/23 18:48:42" instance="27b450" type="response" statusCode="200" statusText="OK" Server="Microsoft-IIS/8.0" ETag="&quot;f72e72e85c6f5cec&quot;" Cache-Control="private" X-AspNet-Version="4.0.30319" Content-Type="application/json; charset=utf-8" elapsed="0" />
+  </step>
+  <step title="Incoming Request" date="08/23 18:48:48" instance="27b450" url="/api/deployments/?$orderby=ReceivedTime%20desc&amp;$top=20" method="GET" type="request" pid="5624,2,31" Connection="Keep-Alive" Accept="application/json" Accept-Language="en-US" Host="cartracker.scm.azurewebsites.net" If-None-Match="&quot;f72e72e85c6f5cec&quot;" User-Agent="Azure-Portal/4.9.00298.4" x-ms-client-request-id="d78d031b-3502-49d1-a777-56da27c6fdfb-2014-08-23 18:48:48Z" x-ms-client-session-id="45a32d9f-8520-4357-9a1c-bf9934ae2241" X-SITE-DEPLOYMENT-ID="cartracker" elapsed="245">
+    <step title="DeploymentService.GetDeployResults" date="08/23 18:48:48" instance="27b450" elapsed="210">
+      <step title="DeploymentManager.GetResults" date="08/23 18:48:48" instance="27b450" elapsed="209" />
+    </step>
+    <step title="Outgoing response" date="08/23 18:48:48" instance="27b450" type="response" statusCode="200" statusText="OK" Server="Microsoft-IIS/8.0" ETag="&quot;f72e72e5a388bb31&quot;" Cache-Control="private" X-AspNet-Version="4.0.30319" Content-Type="application/json; charset=utf-8" elapsed="0" />
+  </step>
+  <step title="Incoming Request" date="08/23 18:49:11" instance="27b450" url="/api/deployments/?$orderby=ReceivedTime%20desc&amp;$top=20" method="GET" type="request" pid="5624,2,33" Connection="Keep-Alive" Accept="application/json" Accept-Language="en-US" Host="cartracker.scm.azurewebsites.net" If-None-Match="&quot;f72e72e5a388bb31&quot;" User-Agent="Azure-Portal/4.9.00298.4" x-ms-client-request-id="ce80cbe7-1e0a-40fa-a3c9-8fbdfa4a4010-2014-08-23 18:49:11Z" x-ms-client-session-id="45a32d9f-8520-4357-9a1c-bf9934ae2241" X-SITE-DEPLOYMENT-ID="cartracker" elapsed="268">
+    <step title="DeploymentService.GetDeployResults" date="08/23 18:49:11" instance="27b450" elapsed="245">
+      <step title="DeploymentManager.GetResults" date="08/23 18:49:11" instance="27b450" elapsed="244">
+        <step title="Purge deployment items" date="08/23 18:49:11" instance="27b450" elapsed="54">
+          <step title="Remove temp-c3e1, Pending, received at 8/23/2014 6:48:46 PM" date="08/23 18:49:11" instance="27b450" elapsed="0" />
+        </step>
+      </step>
+    </step>
+    <step title="Outgoing response" date="08/23 18:49:11" instance="27b450" type="response" statusCode="200" statusText="OK" Server="Microsoft-IIS/8.0" ETag="&quot;f72e72e5ad850faf&quot;" Cache-Control="private" X-AspNet-Version="4.0.30319" Content-Type="application/json; charset=utf-8" elapsed="0" />
+  </step>
+  <step title="Incoming Request" date="08/23 18:49:18" instance="27b450" url="/api/deployments/?$orderby=ReceivedTime%20desc&amp;$top=20" method="GET" type="request" pid="5624,2,36" Connection="Keep-Alive" Accept="application/json" Accept-Language="en-US" Host="cartracker.scm.azurewebsites.net" If-None-Match="&quot;f72e72e5ad850faf&quot;" User-Agent="Azure-Portal/4.9.00298.4" x-ms-client-request-id="5ae457de-ce03-4d19-85e8-cb9e4faf5d37-2014-08-23 18:49:17Z" x-ms-client-session-id="45a32d9f-8520-4357-9a1c-bf9934ae2241" X-SITE-DEPLOYMENT-ID="cartracker" elapsed="216">
+    <step title="DeploymentService.GetDeployResults" date="08/23 18:49:18" instance="27b450" elapsed="182">
+      <step title="DeploymentManager.GetResults" date="08/23 18:49:18" instance="27b450" elapsed="182" />
+    </step>
+    <step title="Outgoing response" date="08/23 18:49:18" instance="27b450" type="response" statusCode="200" statusText="OK" Server="Microsoft-IIS/8.0" ETag="&quot;f72e72e5b2fe4e79&quot;" Cache-Control="private" X-AspNet-Version="4.0.30319" Content-Type="application/json; charset=utf-8" elapsed="0" />
+  </step>
+  <step title="Incoming Request" date="08/23 18:48:45" instance="27b450" url="/deploy?scmType=GitHub" method="POST" type="request" pid="5624,2,29" Connection="Keep-Alive" Content-Length="60228" Content-Type="application/x-www-form-urlencoded" Accept="*/*" Host="cartracker.scm.azurewebsites.net" User-Agent="GitHub-Hookshot/d883a79" X-GitHub-Event="push" X-GitHub-Delivery="1b9b714e-2af6-11e4-88ec-18cf320ec406" X-SITE-DEPLOYMENT-ID="cartracker" elapsed="74062">
+    <step title="FetchHandler" date="08/23 18:48:45" instance="27b450" elapsed="74047">
+      <step title="Attempting to fetch target branch master" date="08/23 18:48:45" instance="27b450" elapsed="0" />
+      <step title="Executing external process" date="08/23 18:48:45" instance="27b450" type="process" path="git.exe" arguments="rev-parse --git-dir" elapsed="60" />
+      <step title="Assuming git repository at D:\home\site\repository" date="08/23 18:48:45" instance="27b450" elapsed="0" />
+      <step title="Performing fetch based deployment" date="08/23 18:48:46" instance="27b450" elapsed="73599">
+        <step title="Creating temporary deployment" date="08/23 18:48:46" instance="27b450" elapsed="67" />
+        <step title="Executing external process" date="08/23 18:48:46" instance="27b450" type="process" path="git.exe" arguments="rev-parse --git-dir" elapsed="46" />
+        <step title="Executing external process" date="08/23 18:48:46" instance="27b450" type="process" path="git.exe" arguments="rev-parse --git-dir" elapsed="30" />
+        <step title="Executing external process" date="08/23 18:48:46" instance="27b450" type="process" path="git.exe" arguments="remote add -t master external &quot;git@github.com:JamieDixon/CarTracker&quot;" elapsed="591" />
+        <step title="Executing external process" date="08/23 18:48:46" instance="27b450" type="process" path="git.exe" arguments="branch" elapsed="50" />
+        <step title="Executing external process" date="08/23 18:48:47" instance="27b450" type="process" path="git.exe" arguments="fetch external --progress" elapsed="7037" />
+        <step title="Executing external process" date="08/23 18:48:54" instance="27b450" type="process" path="git.exe" arguments="update-ref refs/heads/master external/master" elapsed="101" />
+        <step title="Executing external process" date="08/23 18:48:54" instance="27b450" type="process" path="git.exe" arguments="checkout master --force" elapsed="14715" />
+        <step title="Executing external process" date="08/23 18:49:08" instance="27b450" type="process" path="git.exe" arguments="remote rm external" elapsed="176" />
+        <step title="Executing external process" date="08/23 18:49:09" instance="27b450" type="process" path="git.exe" arguments="log -n 1 master --" elapsed="54" />
+        <step title="Executing external process" date="08/23 18:49:09" instance="27b450" type="process" path="git.exe" arguments="log -n 1 master --" elapsed="46" />
+        <step title="DeploymentManager.Deploy(id)" date="08/23 18:49:09" instance="27b450" elapsed="50457">
+          <step title="Collecting changeset information" date="08/23 18:49:09" instance="27b450" elapsed="41" />
+          <step title="Updating submodules" date="08/23 18:49:09" instance="27b450" elapsed="51" />
+          <step title="Determining deployment builder" date="08/23 18:49:09" instance="27b450" elapsed="192">
+            <step title="Specific project was specified: src/api" date="08/23 18:49:09" instance="27b450" elapsed="0" />
+            <step title="Executing external process" date="08/23 18:49:09" instance="27b450" type="process" path="git.exe" arguments="ls-files *.csproj *.vbproj *.fsproj" elapsed="53" />
+            <step title="Executing external process" date="08/23 18:49:09" instance="27b450" type="process" path="git.exe" arguments="ls-files *.sln" elapsed="43" />
+            <step title="Executing external process" date="08/23 18:49:09" instance="27b450" type="process" path="git.exe" arguments="ls-files *.sln" elapsed="36" />
+            <step title="Executing external process" date="08/23 18:49:09" instance="27b450" type="process" path="git.exe" arguments="ls-files *.sln" elapsed="36" />
+            <step title="Builder is NodeSiteBuilder" date="08/23 18:49:09" instance="27b450" elapsed="0" />
+          </step>
+          <step title="Copying SSH keys" date="08/23 18:49:09" instance="27b450" elapsed="25" />
+          <step title="Building" date="08/23 18:49:09" instance="27b450" elapsed="50002">
+            <step title="Generating deployment script" date="08/23 18:49:09" instance="27b450" elapsed="53">
+              <step title="Using cached version of the deployment script for command: -y --no-dot-deployment -r &quot;D:\home\site\repository&quot; -o &quot;D:\home\site\deployments\tools&quot; --node --sitePath &quot;D:\home\site\repository\src\api&quot;" date="08/23 18:49:09" instance="27b450" elapsed="0" />
+            </step>
+            <step title="Executing external process" date="08/23 18:49:09" instance="27b450" type="process" path="starter.cmd" arguments="&quot;D:\home\site\deployments\tools\deploy.cmd&quot;" elapsed="49452" />
+          </step>
+        </step>
+        <step title="Cleaning up temp files" date="08/23 18:49:59" instance="27b450" elapsed="1" />
+        <step title="WebHooksManager.PublishEventAsync: PostDeployment" date="08/23 18:49:59" instance="27b450" elapsed="45" />
+        <step title="Site Extension Log" date="08/23 18:49:59" instance="27b450" elapsed="20">
+          <step title="{&quot;SiteExtension&quot;:&quot;Kudu&quot;,&quot;EventDate&quot;:&quot;2014-08-23T18:49:59.7310502Z&quot;,&quot;EventName&quot;:&quot;SiteDeployed&quot;,&quot;SiteType&quot;:&quot;NODE.JS&quot;,&quot;ScmType&quot;:&quot;GitHub&quot;,&quot;Result&quot;:&quot;Success&quot;,&quot;Error&quot;:null,&quot;Latency&quot;:50521,&quot;SiteMode&quot;:&quot;Free&quot;}" date="08/23 18:49:59" instance="27b450" elapsed="0" />
+        </step>
+      </step>
+    </step>
+    <step title="Outgoing response" date="08/23 18:49:59" instance="27b450" type="response" statusCode="200" statusText="OK" Server="Microsoft-IIS/8.0" Cache-Control="private" X-AspNet-Version="4.0.30319" elapsed="0" />
+  </step>
+  <step title="Incoming Request" date="08/23 18:50:03" instance="27b450" url="/api/deployments/?$orderby=ReceivedTime%20desc&amp;$top=20" method="GET" type="request" pid="5624,2,28" Connection="Keep-Alive" Accept="application/json" Accept-Language="en-US" Host="cartracker.scm.azurewebsites.net" If-None-Match="&quot;f72e72e5b2fe4e79&quot;" User-Agent="Azure-Portal/4.9.00298.4" x-ms-client-request-id="055a956e-b672-4fc0-a9fe-0f1e9f5a308a-2014-08-23 18:50:03Z" x-ms-client-session-id="45a32d9f-8520-4357-9a1c-bf9934ae2241" X-SITE-DEPLOYMENT-ID="cartracker" elapsed="206">
+    <step title="DeploymentService.GetDeployResults" date="08/23 18:50:03" instance="27b450" elapsed="171">
+      <step title="DeploymentManager.GetResults" date="08/23 18:50:03" instance="27b450" elapsed="171" />
+    </step>
+    <step title="Outgoing response" date="08/23 18:50:03" instance="27b450" type="response" statusCode="200" statusText="OK" Server="Microsoft-IIS/8.0" ETag="&quot;f72e72e58e405f21&quot;" Cache-Control="private" X-AspNet-Version="4.0.30319" Content-Type="application/json; charset=utf-8" elapsed="0" />
+  </step>
+  <step title="Incoming Request" date="08/23 18:51:03" instance="27b450" url="/dump" method="GET" type="request" pid="5624,2,12" Connection="Keep-Alive" Content-Length="0" Accept-Charset="UTF-8" Host="cartracker.scm.azurewebsites.net" User-Agent="WindowsAzureXplatCLI/0.8.7" X-SITE-DEPLOYMENT-ID="cartracker" elapsed="461">
+    <step title="ZipStreamContent.OnZip" date="08/23 18:51:03" instance="27b450" elapsed="453" />
+    <step title="Outgoing response" date="08/23 18:51:03" instance="27b450" type="response" statusCode="200" statusText="OK" Server="Microsoft-IIS/8.0" Content-Disposition="attachment; filename=dump-08-23-18-51-03.zip" Cache-Control="no-cache" X-AspNet-Version="4.0.30319" Content-Type="application/zip" Pragma="no-cache" Expires="-1" elapsed="0" />
+  </step>
+  <step title="Incoming Request" date="08/23 18:55:46" instance="27b450" url="/api/deployments/?$orderby=ReceivedTime%20desc&amp;$top=20" method="GET" type="request" pid="5624,2,39" Connection="Keep-Alive" Accept="application/json" Accept-Language="en-US" Host="cartracker.scm.azurewebsites.net" If-None-Match="&quot;f72e72e58e405f21&quot;" User-Agent="Azure-Portal/4.9.00298.4" x-ms-client-request-id="1dce5c39-fb9e-4f81-aa14-0c17ba25fea0-2014-08-23 18:55:46Z" x-ms-client-session-id="45a32d9f-8520-4357-9a1c-bf9934ae2241" X-SITE-DEPLOYMENT-ID="cartracker" elapsed="218">
+    <step title="DeploymentService.GetDeployResults" date="08/23 18:55:46" instance="27b450" elapsed="195">
+      <step title="DeploymentManager.GetResults" date="08/23 18:55:46" instance="27b450" elapsed="195" />
+    </step>
+    <step title="Outgoing response" date="08/23 18:55:46" instance="27b450" type="response" statusCode="200" statusText="OK" Server="Microsoft-IIS/8.0" ETag="&quot;f72e72e558b0c69f&quot;" Cache-Control="private" X-AspNet-Version="4.0.30319" Content-Type="application/json; charset=utf-8" elapsed="0" />
+  </step>
+  <step title="Incoming Request" date="08/23 18:55:52" instance="27b450" url="/api/deployments/?$orderby=ReceivedTime%20desc&amp;$top=20" method="GET" type="request" pid="5624,2,37" Connection="Keep-Alive" Accept="application/json" Accept-Language="en-US" Host="cartracker.scm.azurewebsites.net" If-None-Match="&quot;f72e72e558b0c69f&quot;" User-Agent="Azure-Portal/4.9.00298.4" x-ms-client-request-id="d5517a15-f58f-4c27-a116-f8e087c0841b-2014-08-23 18:55:52Z" x-ms-client-session-id="45a32d9f-8520-4357-9a1c-bf9934ae2241" X-SITE-DEPLOYMENT-ID="cartracker" elapsed="275">
+    <step title="DeploymentService.GetDeployResults" date="08/23 18:55:52" instance="27b450" elapsed="248">
+      <step title="DeploymentManager.GetResults" date="08/23 18:55:52" instance="27b450" elapsed="248">
+        <step title="Purge deployment items" date="08/23 18:55:52" instance="27b450" elapsed="47">
+          <step title="Remove temp-8546, Pending, received at 8/23/2014 6:55:44 PM" date="08/23 18:55:52" instance="27b450" elapsed="0" />
+        </step>
+      </step>
+    </step>
+    <step title="Outgoing response" date="08/23 18:55:52" instance="27b450" type="response" statusCode="200" statusText="OK" Server="Microsoft-IIS/8.0" ETag="&quot;f72e72e55fffb927&quot;" Cache-Control="private" X-AspNet-Version="4.0.30319" Content-Type="application/json; charset=utf-8" elapsed="0" />
+  </step>
+  <step title="Incoming Request" date="08/23 18:55:58" instance="27b450" url="/api/deployments/?$orderby=ReceivedTime%20desc&amp;$top=20" method="GET" type="request" pid="5624,2,22" Connection="Keep-Alive" Accept="application/json" Accept-Language="en-US" Host="cartracker.scm.azurewebsites.net" If-None-Match="&quot;f72e72e55fffb927&quot;" User-Agent="Azure-Portal/4.9.00298.4" x-ms-client-request-id="26f40e64-b1a3-4976-bb8a-1f322cdea133-2014-08-23 18:55:58Z" x-ms-client-session-id="45a32d9f-8520-4357-9a1c-bf9934ae2241" X-SITE-DEPLOYMENT-ID="cartracker" elapsed="242">
+    <step title="DeploymentService.GetDeployResults" date="08/23 18:55:58" instance="27b450" elapsed="213">
+      <step title="DeploymentManager.GetResults" date="08/23 18:55:58" instance="27b450" elapsed="213" />
+    </step>
+    <step title="Outgoing response" date="08/23 18:55:58" instance="27b450" type="response" statusCode="200" statusText="OK" Server="Microsoft-IIS/8.0" ETag="&quot;f72e72e55dcfa67a&quot;" Cache-Control="private" X-AspNet-Version="4.0.30319" Content-Type="application/json; charset=utf-8" elapsed="0" />
+  </step>
+  <step title="Incoming Request" date="08/23 18:55:43" instance="27b450" url="/deploy?scmType=GitHub" method="POST" type="request" pid="5624,2,30" Connection="Keep-Alive" Content-Length="7306" Content-Type="application/x-www-form-urlencoded" Accept="*/*" Host="cartracker.scm.azurewebsites.net" User-Agent="GitHub-Hookshot/d883a79" X-GitHub-Event="push" X-GitHub-Delivery="15066338-2af7-11e4-9961-0c043d9bcd03" X-SITE-DEPLOYMENT-ID="cartracker" elapsed="31582">
+    <step title="FetchHandler" date="08/23 18:55:43" instance="27b450" elapsed="31572">
+      <step title="Attempting to fetch target branch master" date="08/23 18:55:43" instance="27b450" elapsed="0" />
+      <step title="Executing external process" date="08/23 18:55:43" instance="27b450" type="process" path="git.exe" arguments="rev-parse --git-dir" elapsed="63" />
+      <step title="Assuming git repository at D:\home\site\repository" date="08/23 18:55:43" instance="27b450" elapsed="0" />
+      <step title="Performing fetch based deployment" date="08/23 18:55:44" instance="27b450" elapsed="31231">
+        <step title="Creating temporary deployment" date="08/23 18:55:44" instance="27b450" elapsed="31" />
+        <step title="Executing external process" date="08/23 18:55:44" instance="27b450" type="process" path="git.exe" arguments="rev-parse --git-dir" elapsed="33" />
+        <step title="Executing external process" date="08/23 18:55:44" instance="27b450" type="process" path="git.exe" arguments="rev-parse --git-dir" elapsed="30" />
+        <step title="Executing external process" date="08/23 18:55:44" instance="27b450" type="process" path="git.exe" arguments="remote add -t master external &quot;git@github.com:JamieDixon/CarTracker&quot;" elapsed="129" />
+        <step title="Executing external process" date="08/23 18:55:44" instance="27b450" type="process" path="git.exe" arguments="branch" elapsed="47" />
+        <step title="Executing external process" date="08/23 18:55:44" instance="27b450" type="process" path="git.exe" arguments="fetch external --progress" elapsed="2209" />
+        <step title="Executing external process" date="08/23 18:55:46" instance="27b450" type="process" path="git.exe" arguments="update-ref refs/heads/master external/master" elapsed="102" />
+        <step title="Executing external process" date="08/23 18:55:46" instance="27b450" type="process" path="git.exe" arguments="checkout master --force" elapsed="1954" />
+        <step title="Executing external process" date="08/23 18:55:48" instance="27b450" type="process" path="git.exe" arguments="remote rm external" elapsed="165" />
+        <step title="Executing external process" date="08/23 18:55:48" instance="27b450" type="process" path="git.exe" arguments="log -n 1 master --" elapsed="45" />
+        <step title="Executing external process" date="08/23 18:55:48" instance="27b450" type="process" path="git.exe" arguments="log -n 1 master --" elapsed="47" />
+        <step title="DeploymentManager.Deploy(id)" date="08/23 18:55:49" instance="27b450" elapsed="26295">
+          <step title="Collecting changeset information" date="08/23 18:55:49" instance="27b450" elapsed="44" />
+          <step title="Updating submodules" date="08/23 18:55:49" instance="27b450" elapsed="50" />
+          <step title="Determining deployment builder" date="08/23 18:55:49" instance="27b450" elapsed="165">
+            <step title="Specific project was specified: src/api" date="08/23 18:55:49" instance="27b450" elapsed="0" />
+            <step title="Executing external process" date="08/23 18:55:49" instance="27b450" type="process" path="git.exe" arguments="ls-files *.csproj *.vbproj *.fsproj" elapsed="48" />
+            <step title="Executing external process" date="08/23 18:55:49" instance="27b450" type="process" path="git.exe" arguments="ls-files *.sln" elapsed="37" />
+            <step title="Executing external process" date="08/23 18:55:49" instance="27b450" type="process" path="git.exe" arguments="ls-files *.sln" elapsed="34" />
+            <step title="Executing external process" date="08/23 18:55:49" instance="27b450" type="process" path="git.exe" arguments="ls-files *.sln" elapsed="39" />
+            <step title="Builder is NodeSiteBuilder" date="08/23 18:55:49" instance="27b450" elapsed="0" />
+          </step>
+          <step title="Copying SSH keys" date="08/23 18:55:49" instance="27b450" elapsed="13" />
+          <step title="Building" date="08/23 18:55:49" instance="27b450" elapsed="25894">
+            <step title="Generating deployment script" date="08/23 18:55:49" instance="27b450" elapsed="35">
+              <step title="Using cached version of the deployment script for command: -y --no-dot-deployment -r &quot;D:\home\site\repository&quot; -o &quot;D:\home\site\deployments\tools&quot; --node --sitePath &quot;D:\home\site\repository\src\api&quot;" date="08/23 18:55:49" instance="27b450" elapsed="0" />
+            </step>
+            <step title="Executing external process" date="08/23 18:55:49" instance="27b450" type="process" path="starter.cmd" arguments="&quot;D:\home\site\deployments\tools\deploy.cmd&quot;" elapsed="25395" />
+          </step>
+        </step>
+        <step title="Cleaning up temp files" date="08/23 18:56:15" instance="27b450" elapsed="1" />
+        <step title="WebHooksManager.PublishEventAsync: PostDeployment" date="08/23 18:56:15" instance="27b450" elapsed="13" />
+        <step title="Site Extension Log" date="08/23 18:56:15" instance="27b450" elapsed="1">
+          <step title="{&quot;SiteExtension&quot;:&quot;Kudu&quot;,&quot;EventDate&quot;:&quot;2014-08-23T18:56:15.3430362Z&quot;,&quot;EventName&quot;:&quot;SiteDeployed&quot;,&quot;SiteType&quot;:&quot;NODE.JS&quot;,&quot;ScmType&quot;:&quot;GitHub&quot;,&quot;Result&quot;:&quot;Success&quot;,&quot;Error&quot;:null,&quot;Latency&quot;:26323,&quot;SiteMode&quot;:&quot;Free&quot;}" date="08/23 18:56:15" instance="27b450" elapsed="0" />
+        </step>
+      </step>
+    </step>
+    <step title="Outgoing response" date="08/23 18:56:15" instance="27b450" type="response" statusCode="200" statusText="OK" Server="Microsoft-IIS/8.0" Cache-Control="private" X-AspNet-Version="4.0.30319" elapsed="0" />
+  </step>
+  <step title="Incoming Request" date="08/23 18:56:16" instance="27b450" url="/api/deployments/?$orderby=ReceivedTime%20desc&amp;$top=20" method="GET" type="request" pid="5624,2,37" Connection="Keep-Alive" Accept="application/json" Accept-Language="en-US" Host="cartracker.scm.azurewebsites.net" If-None-Match="&quot;f72e72e55dcfa67a&quot;" User-Agent="Azure-Portal/4.9.00298.4" x-ms-client-request-id="940f6fd5-ce5b-40d8-aa5c-ec6a9a7a0bb4-2014-08-23 18:56:15Z" x-ms-client-session-id="45a32d9f-8520-4357-9a1c-bf9934ae2241" X-SITE-DEPLOYMENT-ID="cartracker" elapsed="237">
+    <step title="DeploymentService.GetDeployResults" date="08/23 18:56:16" instance="27b450" elapsed="205">
+      <step title="DeploymentManager.GetResults" date="08/23 18:56:16" instance="27b450" elapsed="205" />
+    </step>
+    <step title="Outgoing response" date="08/23 18:56:16" instance="27b450" type="response" statusCode="200" statusText="OK" Server="Microsoft-IIS/8.0" ETag="&quot;f72e72e4ae5ea0ed&quot;" Cache-Control="private" X-AspNet-Version="4.0.30319" Content-Type="application/json; charset=utf-8" elapsed="0" />
+  </step>
 </trace>
